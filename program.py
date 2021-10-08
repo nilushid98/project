@@ -1,3 +1,5 @@
-value=10
+from student import Student
+
+student=Student('sam')
 print('pass')
-print(value)
+print(student.value)
